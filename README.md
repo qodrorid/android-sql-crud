@@ -14,9 +14,9 @@ contoh kode android sql - create read update delete.
 [update]: https://github.com/qodrorid/android-sql-crud/blob/master/art/update.png
 [delete]: https://github.com/qodrorid/android-sql-crud/blob/master/art/delete.png
 
-# Sample Project
+# download
 
-download aplikasinya di Google Play:
+install aplikasinya dari Google Play:
 
 <a href='https://play.google.com/store/apps/details?id=qodr.sqlitecrud'>
 <img alt='Temukan di Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/id_badge_web_generic.png' height="100" />

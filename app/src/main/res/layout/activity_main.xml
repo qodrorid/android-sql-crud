@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="qodr.sqlitecrud.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnCreate"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="CREATE"
+            android:onClick="gotoCreate"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnRead"
+            android:text="READ"
+            android:onClick="goRead"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:text="UPDATE"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:onClick="goUpdate"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="goDelete"
+            android:id="@+id/btnDelete"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="DELETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
